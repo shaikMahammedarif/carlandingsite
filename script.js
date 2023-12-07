@@ -7,7 +7,7 @@ if (userNameInpEle.value === "") {
 }
 userPassInpELe.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-        if (userNameInpEle.value === "284758" && userPassInpELe.value === "AAKUASHU4758") {
+        if (userNameInpEle.value === "284758" && userPassInpELe.value === "AAKU123") {
             alert("Login Successful");
             rideBtnInpEle.classList.remove("d-none");
         }
